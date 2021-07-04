@@ -5,7 +5,7 @@
 ### type
 
 * type: String
-* available values: text, number, date, time, datetime, money
+* available values: text, number, date, time, datetime, money,password
 
 ### value
 
