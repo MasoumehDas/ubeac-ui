@@ -107,11 +107,11 @@
 <u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" 
  disable="false" visible="true" readonly="false" dir="left" language="en-US" @focus="" @keyup="" @keydown="" 
  @blur="" @click="" @mouseOver="",icon="",IconAlign=""
-,@IconClick="" ,placeholderImage="",placeholderAlign="" ,lable="Sample"
+@IconClick="" placeholderImage="" placeholderAlign="" lable="Sample" sizing=""
          
  />
 
-<u-input type="money" value="400,100,100" name="SampleID" placeholder="1000,000,000" tooltip="Sample" format="" mask="---,---" disable="false" visible="true" readonly="false"  dir="left" language="en-US" 
+<u-input type="money" value="400,100,100" name="SampleID" placeholder="1000,000,000" tooltip="Sample" format="" mask="---,---" disable="false" visible="true" readonly="false"  dir="left" language="en-US" sizing="sm"
          @focus="" @keyup="" @keydown="" @blur="" @click="" @mouseOver=""
  />
 
