@@ -8,6 +8,8 @@
 * default: clean
 * available values: primary, bordered, danger, Warning, Info,...
 
+### lable
+* Type: String
 
 
 ### visible
@@ -37,14 +39,14 @@
 ## Examples
 
 ```html
-<u-checkbox  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
+<u-checkbox  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur=""  lable="Sample" />
 
-<u-checkbox  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
+<u-checkbox  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" lable="Sample" />
 
-<u-radio  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
+<u-radio  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" lable="Sample" />
 
 
-<u-radio  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
+<u-radio  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" lable="Sample" />
 
 
 ```
