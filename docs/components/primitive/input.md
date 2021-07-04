@@ -16,7 +16,7 @@
 * default: clean
 * available values:sm,lg ,... 
 
-### lable
+### label
 * default: clean
 * type: String
 
@@ -107,7 +107,7 @@
 <u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" 
  disable="false" visible="true" readonly="false" dir="left" language="en-US" @focus="" @keyup="" @keydown="" 
  @blur="" @click="" @mouseOver="",icon="",IconAlign=""
-@IconClick="" placeholderImage="" placeholderAlign="" lable="Sample" sizing=""
+@IconClick="" placeholderImage="" placeholderAlign="" label="Sample" sizing=""
          
  />
 
