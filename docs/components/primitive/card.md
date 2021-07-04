@@ -46,7 +46,7 @@
 * Type: String
 * Default :clean
 
-### ImagePosition
+### ImageAlign
 
 * Type :string 
 * Default :clean
@@ -75,21 +75,21 @@
 </u-card>
 
 <u-card variant="grid-cards"  NumberColumns="3"  visible="true"   @Click=""    HoverAnimated="hover-top"  > 
-  <u-card-Items border="primary" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="true" ItemImageUrl="http://Test" ImagePosition="top">
+  <u-card-Items border="primary" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="true" ItemImageUrl="http://Test" ImageAlign="top">
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <u-button variant="danger"   icon="pencil" text="more ..." />
     <u-button variant="info"   icon="pencil" text="add to basket" />          
   </u-card-Items>
 
-  <u-card-Items border="success" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="false" ItemImageUrl="http://Test" ImagePosition="top">
+  <u-card-Items border="success" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="false" ItemImageUrl="http://Test" ImageAlign="top">
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <u-button variant="danger"   icon="pencil" text="more ..." />
     <u-button variant="info"   icon="pencil" text="add to basket" />          
   </u-card-Items>
   
-  <u-card-Items border="success" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="false" ItemImageUrl="http://Test" ImagePosition="top">
+  <u-card-Items border="success" CurrentActive="true" visible="true" @ClickItems="" @MouseOverItems="" CurrentActive="false" ItemImageUrl="http://Test" ImageAlign="top">
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p>
     <u-button variant="danger"   icon="pencil" text="more ..." />
