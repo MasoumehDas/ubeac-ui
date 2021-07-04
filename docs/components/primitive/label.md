@@ -15,6 +15,11 @@
 * default: clean
 * available values: primary, secondary, danger, info, warning, success,light,purple,pink,dark,...
 
+### sizing
+* type: String
+* default: clean
+* available values:sm,lg ,... 
+
 
 ## Examples
 
