@@ -22,6 +22,10 @@
 * type: boolean
 * default: false
 
+### sizing
+* type: String
+* default: clean
+* available values:sm,lg ,... 
 
 
 ## Methods
