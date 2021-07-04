@@ -99,7 +99,8 @@
 ## Examples
 
 ```html
-<u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" disable="false" visible="true" readonly="false" dir="left" language="en-US" @focus="" @keyup="" @keydown="" @blur="" @click="" @mouseOver="",icon="",IconLocation="",@IconClick="" ,placeholderImage="",placeholderLocation="" ,lable="Sample"
+<u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" disable="false" visible="true" readonly="false" dir="left" language="en-US" @focus="" @keyup="" @keydown="" @blur="" @click="" @mouseOver="",icon="",IconLocation=""
+,@IconClick="" ,placeholderImage="",placeholderLocation="" ,lable="Sample"
          
  />
 
