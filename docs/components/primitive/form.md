@@ -4,9 +4,10 @@
 
 ### variant
 
-* type: String
-* default: Shadowed
-* available values: shadowed, bordered, side bordered, clean, different border,...
+* Type: String
+* default: clean
+* available values: grid, groups,row ,horizontal,inline
+
 
 ### sizing
 
@@ -40,11 +41,24 @@
 * default: clean
 * available values: lable-view, input-view ,...
 
-###  FormType
-* Type: String
-* default: clean
-* available values: grid, groups,row ,horizontal,inline
+
+### NumberColumn
+* Type: Integer
+* default: 1
+
+## Methods
+
+### Submit
+### ClearForm
+   
 
 
 
+## Examples
 
+```html
+<u-form Title="Sample" variant="grid"   sizing=""  visible="true"  icon=""  IconAlign="" readonly="false"  ReadonlyType="" NumberColumn="1" @Submit="" @ClearForm="" >
+  <u-input lable="Sample" name="Sample" />
+  
+</u-form> 
+```
