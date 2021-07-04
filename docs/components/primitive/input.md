@@ -10,6 +10,11 @@
 ### value
 
 * type: String
+* 
+### sizing
+* type: String
+* default: clean
+* available values:sm,lg  
 
 ### lable
 * default: clean
