@@ -19,7 +19,7 @@
 * type: String
 * default: clean
 
-### IconLocation
+### IconAlign
 
 * type: String
 * default: clean
@@ -28,7 +28,7 @@
 ### placeholderImage
 * type: String
 
-### placeholderLocation
+### placeholderAlign
 
 * type: String
 * default: clean
@@ -101,8 +101,8 @@
 ```html
 <u-input type="text" value="Sample" name="SampleID" placeholder="Sample" tooltip="Sample" format="" mask="" 
  disable="false" visible="true" readonly="false" dir="left" language="en-US" @focus="" @keyup="" @keydown="" 
- @blur="" @click="" @mouseOver="",icon="",IconLocation=""
-,@IconClick="" ,placeholderImage="",placeholderLocation="" ,lable="Sample"
+ @blur="" @click="" @mouseOver="",icon="",IconAlign=""
+,@IconClick="" ,placeholderImage="",placeholderAlign="" ,lable="Sample"
          
  />
 
