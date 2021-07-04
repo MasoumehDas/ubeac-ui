@@ -8,9 +8,7 @@
 * default: clean
 * available values: primary, bordered, danger, Warning, Info,...
 
-### type
-* type: String
-* available values: checkbox, radio
+
 
 ### visible
 
@@ -43,10 +41,10 @@
 
 <u-checkbox  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
 
-<u-radio type="radio" variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
+<u-radio  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
 
 
-<u-radio type="radio" variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
+<u-radio  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
 
 
 ```
