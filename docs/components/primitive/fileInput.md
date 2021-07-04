@@ -26,7 +26,16 @@
 * type: String
 * default: clean
 * available values:sm,lg ,... 
+* 
+### icon
+* type: String
+* default: clean
 
+### IconAlign
+
+* type: String
+* default: clean
+* available values:left,right
 
 ## Methods
 
@@ -39,6 +48,6 @@
 ## Examples
 
 ```html
-<u-FileInput  variant="primary" visible="true" readonly="false"  @Changed="" @Click="" @Blur=""  label="Sample" />
+<u-FileInput  variant="primary" visible="true" readonly="false"  @Changed="" @Click="" @Blur=""  label="Sample" icon="" IconAlign="" />
 
 ```
