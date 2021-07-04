@@ -39,12 +39,14 @@
 ## Examples
 
 ```html
-<u-input type="checkbox" variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
+<u-checkbox  variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
 
-<u-input type="radio" variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
+<u-checkbox  variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
+
+<u-radio type="radio" variant="primary" visible="true" readonly="false" Switches="" @Changed="" @Click="" @Blur="" />
 
 
-<u-input type="radio" variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
+<u-radio type="radio" variant="primary" visible="true" readonly="false" Switches="Switches-primary" @Changed="" @Click="" @Blur="" />
 
 
 ```
