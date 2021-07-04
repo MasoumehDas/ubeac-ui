@@ -14,7 +14,7 @@
 ### sizing
 * type: String
 * default: clean
-* available values:sm,lg  
+* available values:sm,lg ,... 
 
 ### lable
 * default: clean
