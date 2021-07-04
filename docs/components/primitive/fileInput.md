@@ -8,7 +8,7 @@
 * default: clean
 * available values: primary, bordered, danger, Warning, Info,...
 
-### lable
+### label
 * Type: String
 
 
@@ -39,6 +39,6 @@
 ## Examples
 
 ```html
-<u-FileInput  variant="primary" visible="true" readonly="false"  @Changed="" @Click="" @Blur=""  lable="Sample" />
+<u-FileInput  variant="primary" visible="true" readonly="false"  @Changed="" @Click="" @Blur=""  label="Sample" />
 
 ```
