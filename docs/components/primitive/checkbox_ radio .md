@@ -11,6 +11,10 @@
 ### lable
 * Type: String
 
+### sizing
+* type: String
+* default: clean
+* available values:sm,lg ,... 
 
 ### visible
 
