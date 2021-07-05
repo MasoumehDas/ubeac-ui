@@ -18,7 +18,7 @@
 * type: boolean
 * default: false
 
-### AlertHeading
+### Title
 * type: String
 * DefaultView: false
 
@@ -40,7 +40,7 @@
 </u-alert>
 
 
-<u-alert variant="danger"   visible="true" HasCloseButton="true"   AlertHeading="aditional Content!" >
+<u-alert variant="danger"   visible="true" HasCloseButton="true"   Title="aditional Content!" >
   <p>Aww yeah, you successfully read this important alert message.</p>
 	<hr>
 	<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
