@@ -49,10 +49,10 @@
 
 ```html
 <u-lists variant="shadowed"   visible="true" Enable="true"  @Click="" >
-  <u-lists-Items icon=""    CurrentActive="true" visible="true" Enable="true"   tooltip="" @ClickItems="" @MouseOverItems="" >
+  <u-lists-Items icon=""    CurrentActive="true" visible="true" Enable="true"  icon="" IconAlign=""  tooltip="" @ClickItems="" @MouseOverItems="" >
    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
   </u-lists-Items>
-  <u-lists-Items  CurrentActive="false" visible="true" Enable="true"   tooltip="" @ClickItems="" @MouseOverItems="" >
+  <u-lists-Items  CurrentActive="false" visible="true" Enable="true" icon="" IconAlign=""  tooltip="" @ClickItems="" @MouseOverItems="" >
   
   <ul>
     <li> One </li>
@@ -62,7 +62,7 @@
   
    
   </u-lists-Items>
-   <u-lists-Items  CurrentActive="false" visible="true" Enable="true"    tooltip="" @ClickItems="" @MouseOverItems="" >
+   <u-lists-Items  CurrentActive="false" visible="true" Enable="true"   icon="" IconAlign=""  tooltip="" @ClickItems="" @MouseOverItems="" >
     Sample
   </u-lists-Items>
   
