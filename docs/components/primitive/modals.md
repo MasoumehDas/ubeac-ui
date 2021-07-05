@@ -20,6 +20,10 @@
 * type: boolean
 * default: true
 
+### ClosingAfterSubmit
+* type: boolean
+* default: true
+
 
 ### Title
 * type: String
@@ -43,11 +47,11 @@
 
 ### ClickConfirmButton
     
-### HasSubmitButton
+### ClickSubmitButton
 
-### HasConfirmButton
+### ClickConfirmButton
 
-###  ClickAfterCloseButton
+### ClickAfterCloseButton
 
 
 
@@ -58,8 +62,8 @@
 ```html
 <u-modals variant="md" variant="confirm" Title="Warrnig" HasCloseButton="true"  @ClickConfirmButton="" @ClickAfterCloseButton="" />
 
-<u-modals variant="md" variant="confirm" Title="Create a new page" HasSubmitButton="true"  @HasSubmitButton="" @ClickAfterCloseButton="" >
-  <u-form >
+<u-modals variant="md" variant="standard" Title="Create a new page" HasSubmitButton="true" ClosingAfterSubmit="true"  @ClickSubmitButton="" @ClickAfterCloseButton="" >
+  <u-form Title="Sample" variant="grid"   sizing=""  visible="true"  icon=""  IconAlign="" readonly="false"  ReadonlyType="" NumberColumn="1" @ClearForm="" >
     <u-input type="text" label="sample1" value="sample1" />
     <u-input type="text" value="sample2" value="sample2"/>
   </u-form>
