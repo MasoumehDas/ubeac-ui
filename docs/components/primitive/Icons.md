@@ -19,9 +19,10 @@
 ## Methods
 
 ### MouseOver
+### Click
 
 ## Examples
 
 ```html
-<u-icon type="Primary" Sizing="" @MouseOver="" @MouseOver="" />
+<u-icon type="Primary" Sizing="" @MouseOver="" @Click="" />
 ```
