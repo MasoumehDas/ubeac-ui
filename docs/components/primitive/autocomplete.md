@@ -1,4 +1,4 @@
-# UAccordion
+# UAutocomplete
 
 ## Properties
 
