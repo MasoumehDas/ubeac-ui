@@ -54,7 +54,7 @@
 ### FooterTitle
 * type: String
 
-### HasMultipleSelect
+### HasMultipleSelection
 * type: boolean
 * default: false
 
@@ -92,7 +92,7 @@
 ## Examples
 
 ```html
-<u-table HeaderTitle="Sample" visible=true variant="standard" HasMultipleSelect="true" HasPagging="true" PaggingSize="30" HasRowNumber="true" HasSearchAllColumns="true" @SelectItems="" >
+<u-table HeaderTitle="Sample" visible=true variant="standard" HasMultipleSelection="true" HasPagging="true" PaggingSize="30" HasRowNumber="true" HasSearchAllColumns="true" @SelectItems="" >
   <u-table-Items ItemsType="text" ItemsTitle="column 1" ItemsValue="One" visible="true" iconHeader="" IconHeaderAlign="" iconBody="" IconBodyAlign=""  @ClickItems="" HasSortItems="true" />
    <u-table-Items ItemsType="input" ItemsTitle="column 2" ItemsValue="Two" visible="true" iconHeader="" IconHeaderAlign="" iconBody="" IconBodyAlign=""  @ClickItems="" HasSortItems="false" >
      <u-input type="text" value="input sample" icon="edit" IconAlign="left" @IconClick="" />
