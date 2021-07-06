@@ -60,15 +60,8 @@
 * Type: String
 * Default :clean
 * available :hover-top,hover-right,hover-bottom,hover-left,noshadow,hover-zoom,...
-### ButtonType
-* Type: String
-* Default :clean
-* available :soft,soft-static,pill,ghost,rounded-circle
 
-### SocialButtons
-* Type: String
-* Default :clean
-* available :facebook,twitter,linkedin,vimeo,youtube
+
 
 
 ## Methods
@@ -82,7 +75,7 @@
 ## Examples
 
 ```html
-<u-button variant="danger" disabled="false" autofocus text="Submit" icon="pencil" HoverAnimated="hover-top" ButtonType="soft pill" SocialButtons="facebook"
+<u-button variant="danger" disabled="false" autofocus text="Submit" icon="pencil" HoverAnimated="hover-top" 
  visible="true" @click="" @beforeClick="" @afterClick="" loading="true" badge="secondary" PositionBadge="inside"           
  />
 ```
