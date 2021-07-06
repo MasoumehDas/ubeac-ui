@@ -13,8 +13,8 @@
 
 ### Sizing
 * type: String
-* default: clean
-* available values: sm, lg,...
+* default: md
+* available values: sm, lg,md,...
 
 ## Methods
 
